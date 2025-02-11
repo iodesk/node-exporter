@@ -30,17 +30,20 @@ The script will:
 1. **Clone the repository or download the script**
 
    ```bash
-   git clone https://github.com/your-username/node-exporter-setup.git
-   cd node-exporter-setup
+   git clone https://github.com/iodesk/node-exporter.git
+   cd node-exporter
 2. **Make the script executable**
 
    ```bash
    chmod +x setup_node_exporter.sh
 3. **Run the script with root privileges**
    ```bash
-   sudo ./setup_node_exporter.sh
+   sudo ./nodex-deb.sh
 
 4. **You can access Node Exporter using your browser or Prometheus directly**
    ```bash
    https://your-server-ip:9100
 
+5. **Uninstall**
+   ```bash
+   bash uninstall.sh
